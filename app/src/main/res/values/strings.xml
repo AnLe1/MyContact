@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MyContact</string>
+    <string name="cal">Công Ân Lê</string>
+    <string name="_sdt">0933429223</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="gender">Gender</string>
+    <string name="call_or_message">Do you call or send message?</string>
+</resources>

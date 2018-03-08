@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="com.lca.app.mycontact.MainActivity">
+
+    <EditText
+        android:id="@+id/edt_name"
+        android:hint="@string/cal"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/edt_phone"
+        android:hint="@string/_sdt"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="@string/gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <RadioGroup
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:checked="true"
+            android:layout_weight="1"
+            android:text="@string/male"
+            android:id="@+id/rd_male"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:layout_weight="1"
+            android:text="@string/female"
+            android:id="@+id/rd_female"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </RadioGroup>
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/btnAdd"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Add Contact"
+        android:textColor="#fff"
+        android:background="#07fc03"/>
+    <ListView
+        android:id="@+id/list_item"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+
+</LinearLayout>
